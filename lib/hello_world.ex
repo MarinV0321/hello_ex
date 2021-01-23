@@ -16,4 +16,6 @@ defmodule HelloWorld do
     IO.puts("Hello World!")
     :hello_world
   end
+
+  def greter(name) when is_binary(name), do: fn () -> "Hello, #{name}!"
 end
