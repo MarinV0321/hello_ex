@@ -13,6 +13,7 @@ defmodule HelloWorld do
 
   """
   def hello do
+    IO.puts("Hello World!")
     :hello_world
   end
 end
