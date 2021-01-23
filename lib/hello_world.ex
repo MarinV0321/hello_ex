@@ -18,4 +18,6 @@ defmodule HelloWorld do
   end
 
   def greter(name) when is_binary(name), do: fn () -> "Hello, #{name}!"
+
+  defp _uselles(), do: :nothing
 end
