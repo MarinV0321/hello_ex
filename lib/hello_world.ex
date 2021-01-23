@@ -16,8 +16,11 @@ defmodule HelloWorld do
     IO.puts("Hello World!")
     :hello_world
   end
+<<<<<<< HEAD
 
   def greter(name) when is_binary(name), do: fn () -> "Hello, #{name}!"
 
   defp _uselles(), do: :nothing
+=======
+>>>>>>> parent of 8dfa0e4 (Added hello function)
 end
